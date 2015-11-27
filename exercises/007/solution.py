@@ -1,1 +1,1 @@
-print(["Hello wolrd", 42])
+print("Hello wolrd", 42)
