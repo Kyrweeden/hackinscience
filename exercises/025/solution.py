@@ -1,4 +1,4 @@
 import datetime
 date = datetime.datetime.now().date()
-timu = datetime.datetime.now().time()
-print('Today is', (date), 'and it is', (timu))
+time = datetime.datetime.now().time().replace(microsecond=0)
+print('Today is', (date), 'and it is', (time))
