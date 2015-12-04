@@ -1,5 +1,4 @@
 import datetime
-from datetime import time
-date = datetime.date.today()
+date = datetime.datetime.now().date()
 timu = datetime.datetime.now().time()
 print('Today is', (date), 'and it is', (timu))
